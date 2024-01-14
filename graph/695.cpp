@@ -6,7 +6,7 @@ public:
 
   int dfs(int i,int j,int n,int m,vector<vector<int>> &grid){
       if(i>=0 && i<n && j>=0 && j<m && grid[i][j]==1){
-          //marking the states so that we dont have to maintain the visited array.
+          //marking the states so that we dont have to maintain the visited array.Since the change can be done since the array is of binary input consisting two statest only.
           grid[i][j]=0;
 
           //i+1 for the down side of  grid.
